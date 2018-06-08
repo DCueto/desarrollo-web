@@ -1,0 +1,61 @@
+
+
+body{
+	background-color: white;
+}
+
+header{
+	background: green;
+}
+
+section{
+}
+
+article h3{
+}
+
+.menu {
+	font-size: 24px;
+}
+
+.menu ul{
+	display: flex;
+}
+
+.portada {
+	background-image: url('../images/background.png');
+}
+
+.portada-container{
+	margin-left: 5vw;
+}
+
+.titulo {
+	font-size: 70px;
+	color: white;
+	font-weight: bold;
+	font-family: helvetica;
+	margin-bottom: 5px;
+}
+
+.title-a {
+	font-size: 1.3em;
+	color: white;
+	margin-top: 5px;
+}
+
+.guitarras {
+	color: #1F313C;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.guitarras h2{ 
+	font-size: 35px;
+}
+
+.title-b{
+	font-size: 50px
+}
+
+
