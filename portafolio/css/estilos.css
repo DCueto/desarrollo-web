@@ -1,0 +1,119 @@
+
+
+
+/* Paleta de colores */
+
+/* 
+gris oscuro = #1D252C
+gris claro = #626262
+background gris = #1B2127
+background gris claro = #FAFAFA
+celeste = #026fff
+*/
+
+.flexbox{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  height: 600px;
+}
+
+.flex{
+  /* flex-shrink: 1; */
+  width: 150px;
+  height: 200px;
+  background-color: orangered;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.flex:nth-child(4n){
+  height: 150px;
+  background-color: palevioletred;
+}
+
+
+body{
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+}
+
+nav ol{
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -.2px;
+  color: white;
+  margin-top: 0;
+}
+
+h1 strong{
+  color: #026fff;
+}
+
+.header{
+  background-color: #1B2127;
+  color: white;
+  margin: 0;
+}
+
+.header figure{
+  margin: 0;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+.hero{
+  height: 300px;
+  background-image: url("../images/hero.jpg");
+  background-size: 500px auto;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-color: #1B2127;
+}
+
+.portfolio{
+  background: #fafafa;
+}
+
+.project{
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background: white;
+  display: flex;
+}
+
+.project-details{
+  width: 500px;
+}
+
+.project-imageContainer{
+  width: 500px;
+}
+
+.project-image{
+  width: 100%;
+}
